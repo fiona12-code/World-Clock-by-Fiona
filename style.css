@@ -1,7 +1,69 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
 h1 {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 40px;
+  margin: 0;
+  transform: translateY(20px);
 }
 
 footer {
   text-align: center;
+  font-size: 16px;
+  padding: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city-form {
+  padding: 10px;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 40px;
+  border: none;
+  background-color: #feffdf;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url("Elephants.png");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.city {
+  padding: 10px;
+  border: 2px solid #623212;
+  border-radius: 10px;
+  margin: 15px auto;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+  color: #081f37;
+}
+
+.details {
+  margin-left: 70%;
+  transform: translateY(-20px);
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.5;
+  color: #f5f4e8;
 }
