@@ -28,6 +28,12 @@ form {
   align-items: center;
 }
 
+.home-page {
+  text-align: center;
+  color: #05004e;
+  font-weight: 700;
+}
+
 .city-form {
   padding: 10px;
   width: 40%;
